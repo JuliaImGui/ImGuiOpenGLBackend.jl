@@ -9,7 +9,7 @@ ModernGL = "66fc600b-dfda-50eb-8b99-91cfa97b1301"
 
 [compat]
 julia = "1.6"
-LibCImGui = "1.82.1"
+LibCImGui = "1.82.2"
 ModernGL = "1.1"
 
 [extras]
