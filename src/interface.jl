@@ -38,7 +38,7 @@ function shutdown(ctx::Context)
 end
 
 function new_frame(ctx::Context)
-    if ctx.ShaderHandle != C_NULL
+    if ctx.FontTexture == 0
         ImGui_ImplOpenGL3_CreateDeviceObjects(ctx)
     end
     return true
