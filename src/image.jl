@@ -1,3 +1,5 @@
+const g_ImageTexture = Dict{Int,GLuint}()
+
 function ImGui_ImplOpenGL3_CreateImageTexture(image_width, image_height; format=GL_RGBA, type=GL_UNSIGNED_BYTE)
     id = GLuint(0)
     @c glGenTextures(1, &id)
