@@ -1,3 +1,5 @@
+*This project is archived in favour of using the official OpenGL backend: https://gnimuc.github.io/CImGui.jl/stable/backends/*
+
 # ImGuiOpenGLBackend
 
 [![CI](https://github.com/JuliaImGui/ImGuiOpenGLBackend.jl/actions/workflows/ci.yml/badge.svg)](https://github.com/JuliaImGui/ImGuiOpenGLBackend.jl/actions/workflows/ci.yml)
